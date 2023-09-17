@@ -1,0 +1,5 @@
+
+This project centers around guiding an agent through a grid-based environment with obsticles, with the ultimate objective of navigating from a defined starting point to an endpoint. The key components of this project are as follows:
+Path Planning with A*: The project employs the A* algorithm as the primary means for the agent to devise its path within the grid. This algorithm ensures the agent can efficiently reach its destination.
+Stochastic Movement: The agent's movement within the grid is not entirely deterministic. Instead, it incorporates probabilistic elements, allowing the agent to move in its intended direction with a certain probability. This stochastic aspect adds an element of unpredictability to the agent's trajectory.
+Uncertainty Management: To deal with the inherent uncertainty in the agent's position readings, the project utilizes a filtering algorithm based on Hidden Markov Models (HMM). This filtering process refines the agent's position estimate as it progresses from the initial step to the journey's end, effectively managing the stochasticity in its position readings.
